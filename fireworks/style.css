@@ -1,0 +1,27 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+.back{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("fireworks.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.barre{
+    height: 10%;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.body{
+    display: flex;
+
+}
