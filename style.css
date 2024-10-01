@@ -13,15 +13,23 @@ html, body {
 }
 .barre{
     height: 10%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.8);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 5px;
     padding-right: 5px;
+    color: white;
 }
 
 .body{
+    height: 90%;
     display: flex;
-
+    align-items: center;
+    justify-content: center;
+}
+.text{
+    color: white;
+    text-decoration: aliceblue;
+    background-color: rgba(0, 0, 255, 0.5);
 }
